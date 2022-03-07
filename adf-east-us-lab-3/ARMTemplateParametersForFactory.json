@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-east-us-lab-3"
+		},
+		"rawblob_connectionString": {
+			"value": ""
+		},
+		"HttpServer1lab3_properties_typeProperties_url": {
+			"value": "https://www.reddit.com/r/sports/comments/.json?sort=new&limit=100"
+		}
+	}
+}
