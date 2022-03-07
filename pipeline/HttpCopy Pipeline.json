@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "HttpCopy Pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -38,13 +38,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "HttpFileSource",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Json2",
+						"referenceName": "RawBlobDataset",
 						"type": "DatasetReference"
 					}
 				]
